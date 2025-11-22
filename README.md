@@ -19,11 +19,6 @@ The Unified Holographic Resonance Theory (UHRT) is a conceptual and computable f
 
 UHRT introduces the Universal Binary Scale (UBS) as a unifying metric and a Super Metric ($\mathcal{UBS}_{UHM}$) that quantifies dimensional dilution in bits. Simulations demonstrate that arithmetic failures trigger entropic pruning (reduction of informational complexity) to restore system stability.
 
-**Key Results (UHRT v2.0):**
-* 🚀 Achieved a peak of **2.82 million exact analogies/sec** on CPU.
-* 📐 Verified the emergence of continuous calculus from discrete sums with an error of $\epsilon=0.016$ at $N=1000$ steps.
-* 🔗 Quantified unification with the metric $\mathcal{UBS}_{UHM}=\mathbf{0.0636}$ (minimum entropy).
-
 📍 **Resources:**
 [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/Unified-Holographic-Resonance-Theory-UHRT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17662886.svg)](https://doi.org/10.5281/zenodo.17662886)
@@ -71,6 +66,11 @@ The BUSS framework focuses on quantifying semantic opposition (Thesis/Antithesis
 This is a proposed hybrid framework and future research program for the next generation of AI. It represents the fusion of the arithmetic stability of the Triadic Framework and the semantic opposition of the BUSS Scale, unified under the UHRT logic.
 
 The goal is to create a stable neurosymbolic reasoning model that requires two fundamental components: arithmetic balance (using GCD) and semantic opposition (using vectors $V_{pos} - V_{neg}$). This framework seeks to formalize the hypothesis that reason and stable meaning must exhibit both symbolic rigor and inherent duality.
+
+**Key Results (UHRT v2.0):**
+* 🚀 Achieved a peak of **2.82 million exact analogies/sec** on CPU.
+* 📐 Verified the emergence of continuous calculus from discrete sums with an error of $\epsilon=0.016$ at $N=1000$ steps.
+* 🔗 Quantified unification with the metric $\mathcal{UBS}_{UHM}=\mathbf{0.0636}$ (minimum entropy).
 
 📍 **Resources:**
 [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/-Bipolar-Triadic-Neurosymbolic-Framework-)
