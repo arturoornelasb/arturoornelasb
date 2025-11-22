@@ -59,7 +59,7 @@ The BUSS framework focuses on quantifying semantic opposition (Thesis/Antithesis
 
 ---
 
-### 4. Bipolar Triadic Neurosymbolic Framework (Fusion)
+### 4. Bipolar Triadic Neurosymbolic Framework (Fusion & Test)
 > **Foundational snapshot for the next generation.**
 
 **Summary:**
