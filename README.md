@@ -76,7 +76,8 @@ The goal is to create a stable neurosymbolic reasoning model that requires two f
 [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/-Bipolar-Triadic-Neurosymbolic-Framework-)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17664193.svg)](https://doi.org/10.5281/zenodo.17664193)
 
-🔭 Currently Architecting the Post-Probabilistic Era of AII am building IA_V2, an autonomous neurosymbolic agent based on the Unified Holographic Resonance Theory (UHRT). Unlike standard LLMs that rely on statistical approximation, this system uses Prime Modular Arithmetic and Geometric Semantics to achieve deterministic, explainable reasoning ($K=1.0$).Core: Hybrid Solver (Vector Intuition + Prime Logic).Features: Live Neuroplasticity, Semantic Mitosis, and Causal Reasoning.Hardware: Running efficiently on CPU (No GPUs required).
+🔭 **Working on: Deterministic Neurosymbolic Engine (UHRT)**
+Currently Architecting the Post-Probabilistic Era of AII am building ornelin_IA, an autonomous neurosymbolic agent based on the Unified Holographic Resonance Theory (UHRT). Unlike standard LLMs that rely on statistical approximation, this system uses Prime Modular Arithmetic and Geometric Semantics to achieve deterministic, explainable reasoning ($K=1.0$).Core: Hybrid Solver (Vector Intuition + Prime Logic).Features: Live Neuroplasticity, Semantic Mitosis, and Causal Reasoning.Hardware: Running efficiently on CPU (No GPUs required).
 
 ---
 
