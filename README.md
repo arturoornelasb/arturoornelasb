@@ -119,10 +119,9 @@ I am open to collaborations on Neurosymbolic AI, Deterministic Logic, and Semant
 
 -----
 
-\<div align="center"\>
-  \<i\>"Reality is not a probabilistic distribution; it is a state of stable arithmetic resonance."\</i\>
-\</div\>
+<div align="center">
 
------
+  <i>"Reality is not a probabilistic distribution; it is a state of stable arithmetic resonance."</i>
 
-¿Hay algún otro ajuste que te gustaría hacer?
+</div>
+
