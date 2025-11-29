@@ -10,7 +10,7 @@ I am an independent researcher dedicated to developing the **Unified Holographic
 
 ## 🔭 Research Ecosystem & Projects
 
-Below are the five fundamental pillars of my research, unified under the UHRT framework, **más el motor de inferencia que los unifica (Shadow Engine)**:
+Below are the five fundamental pillars of my research, unified under the UHRT framework.
 
 -----
 
