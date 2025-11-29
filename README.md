@@ -24,6 +24,7 @@ The Unified Holographic Resonance Theory (UHRT) is a conceptual and computable f
 UHRT introduces the Universal Binary Scale (UBS) as a unifying metric and a Super Metric ($\mathcal{UBS}_{UHM}$) that quantifies dimensional dilution in bits. Simulations demonstrate that arithmetic failures trigger entropic pruning (reduction of informational complexity) to restore system stability.
 
 📍 **Resources:**
+
 [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/Unified-Holographic-Resonance-Theory-UHRT)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17662886.svg)](https://doi.org/10.5281/zenodo.17662886)
@@ -44,6 +45,7 @@ The framework is built on two complementary, discrete functions:
 The framework validates its descriptive power by modeling deterministic laws like Classical Mechanics (e.g., $KE = \frac{1}{2}mv^2$), correctly discovering the balancing coefficients $a=1, b=2$.
 
 📍 **Resources:**
+
 [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/Triadic-Relational-Framework)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17613664.svg)](https://doi.org/10.5281/zenodo.17613664)
@@ -63,6 +65,7 @@ The BUSS framework focuses on quantifying semantic opposition (Thesis/Antithesis
   * Provided empirical proof that the failure in generative fine-tuning with DialoGPT-small was due to loss imbalance, where the Language Model Loss ($\approx 4.68$) dominated and essentially ignored the Bipolar Loss ($\approx 0.12$).
 
 📍 **Resources:**
+
 [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/Bipolar-Universal-Semantic-Scale-BUSS-)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17527818.svg)](https://doi.org/10.5281/zenodo.17527818)
@@ -85,6 +88,7 @@ The goal is to create a stable neurosymbolic reasoning model that requires two f
   * 🔗 Quantified unification with the metric $\mathcal{UBS}_{UHM}=\mathbf{0.0636}$ (minimum entropy).
 
 📍 **Resources:**
+
 [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/-Bipolar-Triadic-Neurosymbolic-Framework-)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17664193.svg)](https://doi.org/10.5281/zenodo.17664193)
