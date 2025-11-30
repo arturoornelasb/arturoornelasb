@@ -95,20 +95,7 @@ The goal is to create a stable neurosymbolic reasoning model that requires two f
 
 -----
 
-### 5\. Shadow Engine: Cubical Triads and Abductive Discovery
 
-> **The geometric and topological necessity of integer proportions using HoTT.**
-
-**Summary:**
-This project demonstrates that the integer triadic framework is the **classical shadow of a rigorous synthetic geometry of proportions** in Homotopy Type Theory (HoTT). It formalizes GCD normalization as a projection to a terminal object in a Higher Inductive Type (HIT). Structural degeneracies in data manifest as **topological obstructions**, which are computable witnesses that enable the rigorous **abductive discovery** of hidden integer factors. The simplicity metric $K=1/(ab)$ arises naturally as the Boltzmann weight $e^{-E}$ under a logarithmic geodesic metric.
-
-📍 **Resources:**
-
-[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)]([https://github.com/arturoornelasb/-Bipolar-Triadic-Neurosymbolic-Framework-](https://github.com/arturoornelasb/Shadow-Engine.git))
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17757511.svg)](https://doi.org/10.5281/zenodo.17757511)
-  
------
 
 ## 📫 Connect with Me
 
