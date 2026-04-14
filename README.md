@@ -1,114 +1,120 @@
 # Hello, I'm José Arturo Ornelas Brand 👋
 
-### Independent Researcher | Architect of Neurosymbolic Systems
+### Architect | Truth-seeker
 
-> *"From Black Box Probability to Glass Box Determinism."*
+> *Distinguishing between the world we mold by desire and the universe that exists by its own right.*
 
-I am an independent researcher dedicated to developing the **Unified Holographic Resonance Theory (UHRT)**. My work fuses arithmetic proportionality, geometric dimensionality, and entropic dynamics to build Neurosymbolic AI systems that are deterministic, interpretable, and radically efficient.
+Architect by training, independent researcher by vocation. I build computable, verifiable formalisations of concepts that usually live in philosophy — duality, synthesis, opposition, pre-logical states — and connect them to deterministic neurosymbolic architectures via prime factorisation and a quaternionic operator $\mathcal{O} = \{0, 1, +, i, j, k\}$ that unifies Boolean, fuzzy, modal, trivalent, ordinal, and probabilistic logics as dimensional restrictions of a single structure.
 
------
+The research program has a single organising question: **what stays invariant when the perspective changes, and what is shaped by the perspective itself?** The G-lattice of P11 answers this formally — the real component of a quaternionic truth value is invariant under the $\mathrm{SU}(2)$ context action (objective truth), while the imaginary components carry the epistemic character that depends on the observer (mold by desire).
 
-## 🔭 Research Ecosystem & Projects
+The research program is organised in two layers:
 
-Below are the five fundamental pillars of my research, unified under the UHRT framework.
+- **Computational substrate (P1–P4)** — prime factorisation as a neurosymbolic bridge, its generative/discovery functions, tools for tracking representation evolution, and empirical evidence for layered semantic duality.
+- **Formal algebraic framework (P11–P13)** — a G-lattice on $[0,1] \times [-1,1]^3$ with an $\mathrm{SU}(2)$ group action; its non-commutative extension; the synthesis operation that generates truth from opposites; and the pre-logical states where the truth axis is undefined.
 
------
+---
 
-### 1\. Unified Holographic Resonance Theory (UHRT)
+## Foundation: computational substrate
 
-> **The unification of physics and semantics under arithmetic resonance.**
+### P1 — Triadic Neurosymbolic Engine
 
-**Summary:**
-The Unified Holographic Resonance Theory (UHRT) is a conceptual and computable framework that fuses arithmetic proportionality (MEDC) and entropic dynamics (LCF) to model reality as a holographic system. It postulates that the laws of the Rule of Three (Simple and Compound) define dimensional stability (2D and 3D), and that the "Glitch" is the quantum catalyst that forces dimensional evolution
+> **Prime factorisation as a neurosymbolic bridge.**
 
-UHRT introduces the Universal Binary Scale (UBS) as a unifying metric and a Super Metric ($\mathcal{UBS}_{UHM}$) that quantifies dimensional dilution in bits. Simulations demonstrate that arithmetic failures trigger entropic pruning (reduction of informational complexity) to restore system stability.
+Projects continuous embeddings into a discrete algebraic space for deterministic verification. Establishes the projection $\Phi: \mathbb{R}^d \to \mathbb{N}$ that maps concepts to squarefree integers and recovers exact algebraic relations via the Fundamental Theorem of Arithmetic.
 
-📍 **Resources:**
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/Triadic-Neurosymbolic-Engine)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19205805.svg)](https://doi.org/10.5281/zenodo.19205805)
+[![PyPI](https://img.shields.io/badge/PyPI-triadic--engine-blue?logo=pypi)](https://pypi.org/project/triadic-engine/)
 
-[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/Unified-Holographic-Resonance-Theory-UHRT)
+---
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17662886.svg)](https://doi.org/10.5281/zenodo.17662886)
+### P2 — TriadicGPT
 
------
+> **End-to-end prime factorisation in a generative language model.**
 
-### 2\. A Rigorous Triadic Framework for Neurosymbolic Reasoning
+Demonstrates emergent algebraic semantics from joint training: a small transformer learns the prime-factorisation head jointly with language modelling, producing deterministic algebraic predictions without sacrificing generation quality.
 
-> **Integer logic for sparse circuits.**
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/triadic-microgpt)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19206545.svg)](https://doi.org/10.5281/zenodo.19206545)
+[![PyPI](https://img.shields.io/badge/PyPI-triadic--head-blue?logo=pypi)](https://pypi.org/project/triadic-head/)
 
-**Summary:**
-This framework proposes an integer-based symbolic logic for neurosymbolic reasoning, acting as a candidate model for the underlying logic of "sparse circuits" in AI. It moves reasoning beyond floating-point vector addition toward a ratio-based balance. All logic uses exact rational arithmetic (`fractions` library) and normalization via the Greatest Common Divisor (GCD).
+---
 
-The framework is built on two complementary, discrete functions:
-**Generative Function ($\Phi_G$):** Predicts a new concept $C_4$ from three inputs $C_1, C_2, C_3$ and a known balancing rule $(a, b)$.
-**Discovery Function ($\Phi_D$):** Infers the minimal, co-prime balancing rule $(a, b)$ from a set of four known concepts.
+### P3 — reptimeline
 
-The framework validates its descriptive power by modeling deterministic laws like Classical Mechanics (e.g., $KE = \frac{1}{2}mv^2$), correctly discovering the balancing coefficients $a=1, b=2$.
+> **Tracking discrete representation evolution during neural network training.**
 
-📍 **Resources:**
+Instrumentation tool for AI models that captures how internal representations shift across training steps: detects phase transitions, representational bottlenecks, and the emergence of algebraic structure. Used to validate the joint-training dynamics of TriadicGPT.
 
-[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/Triadic-Relational-Framework)
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/reptimeline)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19208672.svg)](https://doi.org/10.5281/zenodo.19208672)
+[![PyPI](https://img.shields.io/badge/PyPI-reptimeline-blue?logo=pypi)](https://pypi.org/project/reptimeline/)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17613664.svg)](https://doi.org/10.5281/zenodo.17613664)
+---
 
------
+### P4 — Layered Ontology of Semantic Duality
 
-### 3\. Bipolar Universal Semantic Scale (BUSS) - V2.0
+> **14 candidate dualities across 6 algebraic layers.**
 
-> **Quantification of semantic opposition.**
+Proposes a layered ontology classifying dualities by their algebraic type (cancellative vs generative, additive vs multiplicative, etc.) and presents preliminary domain and neural evidence for the classification. Provides the reproducibility data that grounds P12 and P13.
 
-**Summary:**
-The BUSS framework focuses on quantifying semantic opposition (Thesis/Antithesis) as a measurable pole on an orthogonal axis. This approach uses Centered Singular Value Decomposition (SVD) to map concepts. Empirical validation showed that BUSS achieves a statistically superior angular separation of opposing concepts (e.g., 1-star vs. 5-star reviews) in a 50,000-document corpus, outperforming LSA.
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/triadic-emergent-duality)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19375167.svg)](https://doi.org/10.5281/zenodo.19375167)
 
-**Key Operational Results:**
+---
 
-  * A Logistic Regression classifier trained on BUSS projections (V4, 500-dim) achieved **87.16%** accuracy in sentiment classification.
-  * Provided empirical proof that the failure in generative fine-tuning with DialoGPT-small was due to loss imbalance, where the Language Model Loss ($\approx 4.68$) dominated and essentially ignored the Bipolar Loss ($\approx 0.12$).
+## Formal framework: quaternionic logic
 
-📍 **Resources:**
+### P11 — Quaternionic Logic
 
-[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/Bipolar-Universal-Semantic-Scale-BUSS-)
+> **A G-lattice unifying Boolean and fuzzy frameworks.**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17527818.svg)](https://doi.org/10.5281/zenodo.17527818)
+Constructs a residuated lattice on $[0,1] \times [-1,1]^3$ equipped with an $\mathrm{SU}(2)$ group action by quaternionic conjugation. Six known logics (Boolean, Gödel fuzzy, Gödel–Kripke modal, Kleene trivalent, ordinal, probabilistic) are recovered as dimensional projections. Soundness and completeness are proved via reduction to Gödel logic with involutive negation.
 
------
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/quaternionic-logic-paper)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19562014.svg)](https://doi.org/10.5281/zenodo.19562014)
 
-### 4\. Bipolar Triadic Neurosymbolic Framework (Fusion & Test)
+---
 
-> **Foundational snapshot for the next generation.**
+### P11.1 — Non-Commutative Quaternionic t-Norm
 
-**Summary:**
-This is a proposed hybrid framework and future research program for the next generation of AI. It represents the fusion of the arithmetic stability of the Triadic Framework and the semantic opposition of the BUSS Scale, unified under the UHRT logic.
+> **A trilemma on Hamilton multiplication.**
 
-The goal is to create a stable neurosymbolic reasoning model that requires two fundamental components: arithmetic balance (using GCD) and semantic opposition (using vectors $V_{pos} - V_{neg}$). This framework seeks to formalize the hypothesis that reason and stable meaning must exhibit both symbolic rigor and inherent duality.
+Investigates whether the Hamilton product can serve as a genuinely non-commutative conjunction. Establishes positive results (bilateral identity, associativity, emergent non-commutativity) and proves a **theorem**: for any monoidal operation on a subset of $V = [0,1] \times [-1,1]^3$, at most two of {associativity, non-commutativity, compatible lattice order} can hold simultaneously.
 
-**Key Results (UHRT v2.0):**
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/nc-quaternionic-tnorm-paper)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19561407.svg)](https://doi.org/10.5281/zenodo.19561407)
 
-  * 🚀 Achieved a peak of **2.82 million exact analogies/sec** on CPU.
-  * 📐 Verified the emergence of continuous calculus from discrete sums with an error of $\epsilon=0.016$ at $N=1000$ steps.
-  * 🔗 Quantified unification with the metric $\mathcal{UBS}_{UHM}=\mathbf{0.0636}$ (minimum entropy).
+---
 
-📍 **Resources:**
+### P12 — Duality Synthesis
 
-[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/-Bipolar-Triadic-Neurosymbolic-Framework-)
+> **How opposites generate new truth.**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17664193.svg)](https://doi.org/10.5281/zenodo.17664193)
+Develops the synthesis operation on the prime algebra: when two opposites $C_1, C_2$ are combined, the result $\mathrm{lcm}(\Phi(C_1), \Phi(C_2))$ is a genuinely higher-layer concept, not a reducible combination. Shows that opposites generate new truth at higher algebraic layers through an irreducibly second-order gap operation.
 
------
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19561634.svg)](https://doi.org/10.5281/zenodo.19561634)
 
+---
 
+### P13 — Pre-Logical States
 
-## 📫 Connect with Me
+> **How reasoning operates before truth exists.**
 
-I am open to collaborations on Neurosymbolic AI, Deterministic Logic, and Semantic Theory.
+Formalises pre-logical states — points in $V$ where the truth axis is undefined — and proves that information emerges as the compound concept of the pre-logical/logical duality. Substrate independence demonstrated across four domains (emergency response, scientific discovery, moral reasoning, creative process).
 
-  * 📧 **Email:** [arturoornelas62@gmail.com](mailto:arturoornelas62@gmail.com)
-  * ✖️ **X (Twitter):** [@Ornelord](https://x.com/Ornelord)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19561722.svg)](https://doi.org/10.5281/zenodo.19561722)
 
------
+---
 
-<div align="center">
+## 📫 Open invitation to collaborate
 
-  <i>"Reality is not a probabilistic distribution; it is a state of stable arithmetic resonance."</i>
+This research program is deliberately interdisciplinary. It touches algebraic logic, quaternion and Clifford algebra, neurosymbolic AI, cognitive science, random matrix theory, and philosophy of information — no single specialist community covers the whole of it. Advancing it further requires dialogue with researchers who bring rigour and depth from each of those fields.
 
-</div>
+I extend an open invitation to the scientific and academic community — at any level, in any of the relevant disciplines — to collaborate: verify a proof, challenge a hypothesis, test a prediction empirically, extend the framework into a new domain, or simply think out loud about where it connects to your own work. Critical engagement is welcome and valued.
 
+**Seeking arXiv endorsement.** As an independent researcher without institutional affiliation, I am currently seeking endorsement to cross-post this work on arXiv in the relevant subject areas (primarily `math.LO`, `math.RA`, `cs.LO`, `cs.AI`, and `cond-mat.stat-mech`). If you are an arXiv endorser in any of these categories and consider the work appropriate after reviewing a paper, an endorsement would be much appreciated.
+
+- 📧 **Email:** [arturoornelas62@gmail.com](mailto:arturoornelas62@gmail.com)
+- ✖️ **X (Twitter):** [@Ornelord](https://x.com/Ornelord)
