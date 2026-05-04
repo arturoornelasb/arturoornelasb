@@ -53,11 +53,19 @@ Demonstrates emergent algebraic semantics from joint training: a small transform
 
 > **Tracking discrete representation evolution during neural network training.**
 
-Instrumentation tool for AI models that captures how internal representations shift across training steps: detects phase transitions, representational bottlenecks, and the emergence of algebraic structure. Used to validate the joint-training dynamics of TriadicGPT.
+A backend-agnostic Python library that captures per-code lifecycle events (births, deaths, connections, phase transitions), discovers structure bottom-up (anti-correlated duals, dependency chains, three-way AND-gate interactions), and verifies that discovered features have selective causal effects via bootstrap confidence intervals, permutation tests, and Benjamini–Hochberg FDR correction. Validated on three architecturally distinct backends: a 32-bit binary autoencoder on MNIST, sparse-autoencoder features on Pythia-70M, and the 63-bit neurosymbolic projection head from P2.
 
 [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/reptimeline)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19208672.svg)](https://doi.org/10.5281/zenodo.19208672)
 [![PyPI](https://img.shields.io/badge/PyPI-reptimeline-blue?logo=pypi)](https://pypi.org/project/reptimeline/)
+
+**The problem it tackles.** Standard training-monitoring tools (WandB, TensorBoard, codebook-utilisation metrics) report scalar aggregates: they tell the practitioner *that* something changed at step 27,500, but not *what* changed. When codebook collapse happens, the loss curve shows a kink — but which codes died, did they die together, was a phase transition involved, which concepts lost their unique representations? These questions require per-code temporal analysis that no existing tool provides for arbitrary discrete representations. reptimeline operates on the discrete codes themselves, requires no predefined labels, discovers structure bottom-up, and verifies causality — all through a single API that works on any system producing a mapping from concepts to discrete code vectors.
+
+**Open questions.**
+- **Triadic discovery scaling.** Three-way AND-gate detection is $O(K^3)$ in the number of active bits. For sparse autoencoders with thousands of active features it becomes prohibitive without sampling or parallelisation. Is there a principled candidate-pruning criterion — e.g. a marginal-information bound or a tensor-decomposition surrogate — that preserves the genuine triadic interactions while discarding most triples *a priori*?
+- **Distinguishing sparsity from selectivity.** On Pythia-70M, 8 of 16 tested SAE features showed zero cross-activation — perfect by definition, but indistinguishable from the artefact of an SAE sparse code that simply never fires for non-labelled concepts. What additional intervention or null model would separate genuine causal selectivity from a sparsity ceiling?
+- **From causal selectivity to predictive utility.** The 8 finite-selectivity SAE features are causally meaningful (zeroing them changes predictions selectively) but using them for next-token prediction yielded $-0.13\%$ (embedding-based) and $-4.20\%$ (MLP-based) versus baseline. Why does selective causal influence at the feature level fail to translate to gains at the prediction level — is the obstacle distributional, compositional, or an artefact of the read-out architecture?
+- **Beyond binary codes.** The discovery operations (duals, dependencies, triadic AND-gates) are currently formulated on $\{0, 1\}$ codes; FSQ levels and ternary $\{-1, 0, +1\}$ representations require pre-binarisation, which discards information. Can the lifecycle and discovery framework be extended natively to ternary or general categorical codes without collapsing back to binary?
 
 ---
 
