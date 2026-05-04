@@ -27,6 +27,14 @@ Projects continuous embeddings into a discrete algebraic space for deterministic
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19205805.svg)](https://doi.org/10.5281/zenodo.19205805)
 [![PyPI](https://img.shields.io/badge/PyPI-triadic--engine-blue?logo=pypi)](https://pypi.org/project/triadic-engine/)
 
+**The problem it tackles.** Cosine similarity reduces a relationship between two concepts to one number — *"King and Queen are 0.87 similar"* — but cannot answer the *logical* questions that downstream systems actually need: does King contain every feature of Queen? Which features do they share? Which differentiate them? The framework projects each concept into a single integer whose prime factors are its semantic features, so those three questions become exact integer operations: divisibility, $\gcd$, and $\mathrm{lcm}$ — deterministic, explainable, and natively expressible in SQL or Prolog.
+
+**Open questions.**
+- **Choosing $k$ in a principled way.** The useful regime $k \in [6, 12]$ for the LSH projection is empirical. Is there a corpus-intrinsic criterion (e.g. based on the spectral structure of the embedding covariance) that selects optimal $k$ a priori, or is the choice irreducibly heuristic?
+- **When does LSH containment coincide with semantic subsumption?** The method guarantees an exact equivalence between divisibility and LSH bucket containment, but bucket containment is only a *probabilistic* proxy for genuine semantic subsumption — changing the random seed can reverse the relationship. Under which conditions on the embedding geometry do the two coincide reliably?
+- **A theoretical bound on the false-positive rate.** Random hyperplanes give a baseline FPR of $(3/4)^k$ for spurious subsumption. PCA-directed projections achieve $\approx 0.62\times$ that baseline empirically, but no closed-form bound exists. Can the FPR for a given projection mode be expressed analytically in terms of the spectral structure of the corpus?
+- **Cross-modal generalisation.** The framework was evaluated on text embeddings (\texttt{sentence-transformers}). Does the projection $\Phi$ transfer to vision-language (CLIP), audio, or knowledge-graph embeddings without re-engineering?
+
 ---
 
 ### P2 — TriadicGPT
