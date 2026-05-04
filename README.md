@@ -21,7 +21,7 @@ The research program is organised in two layers:
 
 > **Prime factorisation as a neurosymbolic bridge.**
 
-Projects continuous embeddings into a discrete algebraic space for deterministic verification. Establishes the projection $\Phi: \mathbb{R}^d \to \mathbb{N}$ that maps concepts to squarefree integers and recovers exact algebraic relations via the Fundamental Theorem of Arithmetic.
+Projects continuous embeddings into a discrete algebraic space for deterministic verification. Establishes the projection $\Phi: \mathbb{R}^d \to \mathbb{N}$ that maps concepts to squarefree integers, where divisibility encodes subsumption, $\mathrm{lcm}$ encodes composition, and $\gcd$ encodes abductive gap analysis — three operations not expressible under cosine similarity.
 
 [![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/arturoornelasb/Triadic-Neurosymbolic-Engine)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19205805.svg)](https://doi.org/10.5281/zenodo.19205805)
