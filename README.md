@@ -10,6 +10,8 @@
 
 Five preprints, published as one arc: a falsifiable physics hypothesis, its full open-source test campaign, the quantitative transfer to neural networks, and the formal unification.
 
+**→ [Read the illustrated program report](https://arturoornelasb.github.io/rmt-program-report.html)** — how the five papers relate, a reading guide, the predictions scoreboard (what held, what broke), and the D₂ bridge, with figures from the papers.
+
 **1 · Why Rosenzweig–Porter? Evanescent coupling and a random matrix hypothesis for intermediate statistics in freely vibrating plates**
 &nbsp;&nbsp;[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21313838.svg)](https://doi.org/10.5281/zenodo.21313838)
 The mechanism (H = H₀ + λV from free-edge evanescent coupling), eight testable predictions, and a preregistered eigenvector fractal dimension D₂ = 0.76 ± 0.15.
