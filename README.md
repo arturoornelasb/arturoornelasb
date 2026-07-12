@@ -8,7 +8,7 @@
 
 ## The random-matrix program (2026)
 
-Five preprints, published as one arc: a falsifiable physics hypothesis, its full open-source test campaign, the quantitative transfer to neural networks, and the formal unification.
+Six preprints, published as one arc: a falsifiable physics hypothesis, its full open-source test campaign, the quantitative transfer to neural networks, the formal unification — and the payoff: the program's diagnostic turned into a metrological figure of merit.
 
 **→ [Read the illustrated program report](https://arturoornelasb.github.io/rmt-program-report.html)** — how the five papers relate, a reading guide, the predictions scoreboard (what held, what broke), and the D₂ bridge, with figures from the papers.
 
@@ -32,9 +32,15 @@ The transferring spectral signature as an order parameter — from frozen transf
 &nbsp;&nbsp;[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21314570.svg)](https://doi.org/10.5281/zenodo.21314570)
 The bridge made literal: instantiating the random-matrix model with an integer Clifford algebra's grades, kernels, and gate, the signatures survive and the composition laws are machine-checked (Coq/Rocq, re-verified at runtime).
 
+**6 · Multifractality as a sensing resource: a D2 figure of merit for Rosenzweig-Porter systems, and a lattice platform**
+&nbsp;&nbsp;[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21316839.svg)](https://doi.org/10.5281/zenodo.21316839)
+The payoff: composing F_Q = 4·chi_f with Kravtsov's exact RP result makes D₂ an operational sensing figure of merit — QFI enhancement exponent 1 − D₂ for multifractal random states under local couplings, confirmed at 4/4 preregistered gates, its boundaries measured (geometric fractality alone: no effect; critical PBRM: extends), with an operator design rule and a constructed cold-atom platform.
+
 ## Code — everything is reproducible
 
 **[plates-rp-fem](https://github.com/arturoornelasb/plates-rp-fem)** — the full FEM campaign behind paper 2: certified Argyris / C⁰ interior-penalty eigensolvers, the preregistered experiment registry (E1–E20, frozen readings committed *before* each run — the git history is the preregistration trail), and the manuscript. Python, CPU-only.
+
+**[rp-qfi-sensing](https://github.com/arturoornelasb/rp-qfi-sensing)** — companion of paper 6: the gRP/PBRM/Sierpinski fidelity-susceptibility experiments with frozen readings and certified eigensolvers.
 
 **[rmt-signatures](https://github.com/arturoornelasb/rmt-signatures)** — code + derived-data companion of papers 3–5: per-phase experiment scripts, findings records, and figures — including the machine-checked operad proof (`operad_osynth_mech.v`: 56 Qed, 0 Admitted, one typing parameter; `coqchk`-verified).
 
